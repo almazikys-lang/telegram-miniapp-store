@@ -7,8 +7,7 @@ const app = express();
 
 app.use(express.json());
 
-const MINI_APP_URL = process.env.MINI_APP_URL || 'https://telegram-miniapp-store-2025-k2taesp9j.vercel.app';
-const PRODUCTS = [
+const MINI_APP_URL = process.env.MINI_APP_URL || 'https://telegram-miniapp-store-2025.vercel.app';const PRODUCTS = [
   { id: 1, name: 'Storage Plus', emoji: '📦', price: '$4.99' },
   { id: 2, name: 'Support Pack', emoji: '🆘', price: '$14.99' },
   { id: 3, name: 'Analytics', emoji: '📊', price: '$7.99' },
